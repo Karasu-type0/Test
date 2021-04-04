@@ -199,9 +199,8 @@ sysinfo.txt
 
 # Crashlytics generated file
 
-
-
-
+# iOS
+*.DS_Store
 iOS/build/*
 
 
