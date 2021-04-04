@@ -60,29 +60,4 @@ public class NativeAPI : MonoBehaviour
 #endif
         }
 
-
-        // Start is called before the first frame update
-        private void Start()
-        {
-            Debug.Log("整数型 : " + Test());
-            Debug.Log("実数型 : " + FloatPlugin());
-            Debug.Log("文字列型 : " + CharPlugin("hogehoge"));
-
-
-//#if !UNITY_EDITOR
-//            UnityEngine.iOS.Device.SetNoBackupFlag(Application.persistentDataPath);
-//            var _savePath = Application.persistentDataPath + "/DebugFolder";
-//            Directory.CreateDirectory(_savePath);
-//#elif UNITY_EDITOR
-//            var _savePath = Application.dataPath + "/DebugFolder";
-//            Directory.CreateDirectory(_savePath);
-//#endif
-
-
-//            string instr = _savePath + "/" + _fileName;
-//            string outstr = _savePath + "/" + _fileName + "_SurfaceRecon.obj";
-//            Debug.Log("" + CgalTest(instr, outstr));
-
-        }
-
     }
